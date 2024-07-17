@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,29 @@
     <title>cadastro</title>
 </head>
 <body>
-    
+    <div class="componente">
+        <img src="/img/logo.png" id="logo">
+        <h1 class="texp">Crie uma conta</h1>
+        <form class="formulario">
+            <label for="nomes">Nome e Sobrenome</label>
+            <input type="text" id="nomes" nome="nomes" required>
+            <label for="nmUs">Nome de Usuário</label>
+            <input type="text" id="nmUs" nome="nmUs" required>
+            <label for="email">E-mail</label>
+            <input type="text" id="email" nome="email">
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" nome="cpf" required>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" nome="senha" minlength="7" maxlength="7" required>
+            <input type="submit" id="criar" name="criar" value="Criar"> 
+
+        </form>
+    </div>
+    <div class="componente2">
+        <h1 id="titulo">Nâo tem uma conta? Sem problema.</h1>
+        <p class="texp2">faça seu cadastro na BikeStation, 
+            onde a tecnologia se une à mobilidade</p>
+    </div>
+    <img src="/img/pers.png" id="personagem">
 </body>
 </html>
